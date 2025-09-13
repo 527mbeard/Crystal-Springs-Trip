@@ -22,10 +22,20 @@ h6{
 #navbar-example2{
     border-radius:10px;
 }
-.scrollspy-example{
+.mainpage{
     background-image: url(mainpagepic.jpg); 
-    /* https://scenicwilddelawareriver.com/entries/grand-cascades-lodge-crystal-springs-resort-hamburg-nj/36afbef2-7d02-4ff5-a533-d27ab4e803e9 */
+    /*https://scenicwilddelawareriver.com/entries/grand-cascades-lodge-crystal-springs-resort-hamburg-nj/36afbef2-7d02-4ff5-a533-d27ab4e803e9 */
     background:cover;
+}    
+.photogallery{
+    background-image: url(photogallerypic.png);
+    background-repeat: no-repeat;
+    background-color: cover;
+    background-attachment:fixed;
+}
+.card{
+    border:10px solid #534f3d;
+    filter: drop-shadow(5px 5px 5px);
 }
 .footer {
   text-align: center;
