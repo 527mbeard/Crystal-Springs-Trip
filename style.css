@@ -4,44 +4,94 @@
 --jordy-blue: #8BB6E3ff;
 --moss-green: #738D3Dff;
 --vista-blue: #83A3CBff;*/
-
-body{
-    background-color:#738D3Dff;
-    margin-top:10px;
-    margin-bottom:10px;
-    margin-left:10px;
-    margin-right:10px;
+h2{
+    text-align:right;
+    font-size:50px;
+    color:#9cc5e3;
+    font-family: "rocky", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right:40px;
+    padding-top:40px;
+}
+h3{
+    text-align:center;
+    font-size:50px;
+    color:white;
+    font-family: "rocky", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 h4{
     text-align:center;
+    font-size:155px;
+    color:white;
+    font-family: "rocky", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h5{
+    text-align:left;
+    font-size:50px;
+    color:#738D3Dff;
+    font-family: "rocky", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left:40px;
+    padding-top:40px;
 }
 h6{
     text-align:center;
+    font-size:25px;
+    color:white;
+    font-family: "rocky", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid white;
+    margin-top:50px;
+    margin-bottom:100px;
 }
 
 #navbar-example2{
     border-radius:10px;
 }
-.mainpage{
+
+.homepageback{
     background-image: url(mainpagepic.jpg); 
     /*https://scenicwilddelawareriver.com/entries/grand-cascades-lodge-crystal-springs-resort-hamburg-nj/36afbef2-7d02-4ff5-a533-d27ab4e803e9 */
     background:cover;
+    background-repeat:no-repeat
 }    
 .photogallery{
     background-image: url(photogallerypic.png);
     background-repeat: no-repeat;
-    background-color: cover;
     background-attachment:fixed;
+    background-position: center; 
+    background-size: cover;
 }
 .card{
     border:10px solid #534f3d;
     filter: drop-shadow(5px 5px 5px);
+}
+.itinerarybox{
+    background-color:#9cc5e3;
+}
+.list-container ul {
+  display: inline-block; 
+  text-align: left; 
+  margin-left:40px;
+}
+.reviewbox{
+  background-color:#879b55;
 }
 .footer {
   text-align: center;
   padding: 40px 20px;
   margin-top:20px;
   background-image: url(bluefooter.png);
+  background-repeat:no-repeat;
+  background-position: center; 
+  background-size: cover;
 }
 
 .logo {
