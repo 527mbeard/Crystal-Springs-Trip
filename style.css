@@ -100,6 +100,16 @@ h6{
   text-align: left; 
   margin-left:40px;
 }
+.golfpic{
+  border-radius: 500px;
+  width:80%;
+  height:80%;
+}
+.poolpic{
+  border-radius: 500px;
+  width:80%;
+  height:80%;
+}
 .reviewbox{
   background-color:#879b55;
 }
