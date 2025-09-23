@@ -11,7 +11,8 @@ h2{
     font-weight: 400;
     font-style: normal;
     margin-right:40px;
-    padding-top:40px;
+    padding-top:15px;
+    padding-bottom:10px;
 }
 h3{
     text-align:center;
@@ -20,6 +21,8 @@ h3{
     font-family: "rocky", serif;
     font-weight: 400;
     font-style: normal;
+    padding-top:15px;
+    padding-bottom:10px;
 }
 h4{
     text-align:center;
