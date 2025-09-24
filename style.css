@@ -94,6 +94,9 @@ h6 {
   transition: all 0.5s ease;
 }
 
+.nav-item{
+  justify-content:right;
+}
 .nav-link {
   font-size: 25px;
   color: #000;
