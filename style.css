@@ -4,139 +4,193 @@
 --jordy-blue: #8BB6E3ff;
 --moss-green: #738D3Dff;
 --vista-blue: #83A3CBff;*/
-h2{
-    font-size:50px;
-    color:#9cc5e3;
-    font-family: "rocky", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-right:40px;
-    padding-top:15px;
-    padding-bottom:10px;
-}
-h3{
-    text-align:center;
-    font-size:50px;
-    color:white;
-    font-family: "rocky", serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-top:15px;
-    padding-bottom:10px;
-}
-h4{
-    text-align:center;
-    font-size:155px;
-    color:white;
-    font-family: "rocky", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-h5{
-    text-align:left;
-    font-size:50px;
-    color:#738D3Dff;
-    font-family: "rocky", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left:40px;
-    padding-top:40px;
-}
-h6{
-    text-align:center;
-    font-size:25px;
-    color:white;
-    font-family: "rocky", serif;
-    font-weight: 400;
-    font-style: normal;
-    border: 2px solid white;
-    margin-top:50px;
-    margin-bottom:100px;
+h2 {
+  font-size: 60px;
+  color: #9cc5e3;
+  font-family: "rocky", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
-#navbar-example2{
-    border-bottom-left-radius:10px;
-    border-bottom-right-radius:10px;
+h3 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: "rocky", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
-.btn2{
-  color: #fff;
+
+h4 {
+  text-align: center;
+  font-size: 155px;
+  color: white;
+  font-family: "rocky", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h5 {
+  text-align: left;
+  font-size: 50px;
+  color: #738D3Dff;
+  font-family: "rocky", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 40px;
+  padding-top: 40px;
+}
+
+h6 {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: "rocky", serif;
+  font-weight: 400;
+  font-style: normal;
+  border: 2px solid white;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#navbar-example2 {
+  border-bottom-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+}
+
+.btn2 {
+  color: #000;
   cursor: pointer;
   display: block;
-  font-size:16px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 45px;
-  max-width: 160px; 
+  max-width: 160px;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  width: 100%; 
+  width: 100%;
   letter-spacing: 0;
 }
 
-.homepageback{
-    background-image: url(/Imgs/mainpagepic.jpg); 
-    /*https://scenicwilddelawareriver.com/entries/grand-cascades-lodge-crystal-springs-resort-hamburg-nj/36afbef2-7d02-4ff5-a533-d27ab4e803e9 */
-    background-size:cover;
-    background-repeat:no-repeat
-}    
-.photogallery{
-    background-image: url(/Imgs/photogallerypic.png);
-    background-repeat: no-repeat;
-    background-attachment:fixed;
-    background-position: center; 
-    background-size: cover;
+.navbar-brand {
+  text-align: center;
+  font-size: 25px;
+  color: #000;
 }
-img{
-  border-radius:none;
+
+.navbar-brand:hover {
+  color: #FFFFFF;
+  background-color: #447BC4ff;
+  border-radius: 45px;
+  transform: scale(1.05);
+  transition: all 0.5s ease;
 }
-.card{
-    filter: drop-shadow(5px 5px 5px);
-    margin-bottom:50px;
+
+.nav-link {
+  font-size: 25px;
+  color: #000;
 }
-.upper{
-  border:10px solid #534f3d;
+
+.nav-link:hover {
+  color: #FFFFFF;
+  background-color: #447BC4ff;
+  border-radius: 45px;
+  transform: scale(1.05);
+  transition: all 0.5s ease;
 }
-.itinerarybox{
-    background-color:#9cc5e3;
+
+.homepageback {
+  background-image: url(/Imgs/mainpagepic.jpg);
+  /*https://scenicwilddelawareriver.com/entries/grand-cascades-lodge-crystal-springs-resort-hamburg-nj/36afbef2-7d02-4ff5-a533-d27ab4e803e9 */
+  background-size: cover;
+  background-repeat: no-repeat
 }
-.list-container ul{
-  display: inline-block; 
-  text-align: left; 
-  margin-left:15%;
+
+.photogallery {
+  background-image: url(/Imgs/photogallerypic.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
-.golfpic{
-  margin-top:10%;
-  margin-bottom:10%;
+
+img {
+  border-radius: none;
+}
+
+.card {
+  filter: drop-shadow(5px 5px 5px);
+  margin-bottom: 50px;
+}
+
+.upper {
+  border: 10px solid #534f3d;
+}
+
+.itinerarybox {
+  background-color: #9cc5e3;
+}
+
+.list-container ul {
+  display: inline-block;
+  text-align: left;
+  margin-left: 15%;
+}
+
+.golfpic {
+  margin-top: 10%;
+  margin-bottom: 10%;
   border-radius: 500px;
-  width:80%;
-  height:80%;
+  width: 80%;
+  height: 80%;
 }
-.poolpic{
-  margin-top:10%;
-  margin-bottom:10%;
+
+.poolpic {
+  margin-top: 10%;
+  margin-bottom: 10%;
   border-radius: 500px;
-  width:80%;
-  height:80%;
+  width: 80%;
+  height: 80%;
 }
-.reviewbox{
-  background-color:#879b55;
+
+.reviewbox {
+  background-color: #879b55;
 }
-.first{
-  justify-content:center;
+
+.first {
+  justify-content: center;
 }
-.middle{
-  justify-content:center;
+
+.middle {
+  justify-content: center;
 }
-.right{
-  justify-content:center;
+
+.right {
+  justify-content: center;
 }
+
 .footer {
   text-align: center;
   padding: 40px 20px;
   background-image: url(/Imgs/bluefooter.png);
-  background-repeat:no-repeat;
-  background-position: center; 
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+}
+
+.footer a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
 }
 
 .logo {
@@ -145,8 +199,12 @@ img{
   margin-bottom: 20px;
 }
 
-.footer-nav {
-  margin-bottom: 30px;
+.back-to-top {
+  font-size: 20px;
+}
+
+.back-to-top:hover {
+  color: #FFFFFF;
 }
 
 .footer-nav a {
@@ -155,13 +213,47 @@ img{
   color: black;
   font-weight: 500;
 }
+
 .bottom {
   font-weight: bold;
   font-size: 1.1rem;
   margin-bottom: 15px;
 }
+
 footer .copyright {
   font-size: 0.9rem;
   color: black;
   margin-top: 30px;
+}
+
+/* https://prismic.io/blog/css-hover-effects */
+.hover-underline {
+  font-size: 30px;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline::after,
+.hover-underline::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #BEC6D0ff;
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.hover-underline::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover::before {
+  transform: scaleX(1);
 }
