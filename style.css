@@ -111,14 +111,14 @@ h6 {
 }
 
 .homepageback {
-  background-image: url(/Imgs/mainpagepic.jpg);
+  background-image: url/Imgs/mainpagepic.jpg);
   /*https://scenicwilddelawareriver.com/entries/grand-cascades-lodge-crystal-springs-resort-hamburg-nj/36afbef2-7d02-4ff5-a533-d27ab4e803e9 */
   background-size: cover;
   background-repeat: no-repeat
 }
 
 .photogallery {
-  background-image: url(/Imgs/photogallerypic.png);
+  background-image: url(Imgs/photogallerypic.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -183,7 +183,7 @@ img {
 .footer {
   text-align: center;
   padding: 40px 20px;
-  background-image: url(/Imgs/bluefooter.png);
+  background-image: url(Imgs/bluefooter.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
